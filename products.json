@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "photo": "static/images/dress1.jpg",
+      "name": "Elegant Black Dress",
+      "price": 120.50,
+      "material": "Шелк",
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 2,
+      "photo": "static/images/dress2.jpg",
+      "name": "Gorgeous Red Dress",
+      "price": 150.00,
+      "material": "Атлас",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": 3,
+      "photo": "static/images/dress3.jpg",
+      "name": "Classic White Dress",
+      "price": 110.75,
+      "material": "Хлопок",
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 4,
+      "photo": "static/images/dress4.jpg",
+      "name": "Modern Blue Dress",
+      "price": 130.00,
+      "material": "Шелк",
+      "sizes": ["S", "M"]
+    },
+    {
+      "id": 5,
+      "photo": "static/images/dress5.jpg",
+      "name": "Vintage Floral Dress",
+      "price": 140.25,
+      "material": "Лён",
+      "sizes": ["M", "L"]
+    },
+    {
+      "id": 6,
+      "photo": "static/images/dress6.jpg",
+      "name": "Chic Yellow Dress",
+      "price": 125.00,
+      "material": "Шелк",
+      "sizes": ["S", "L", "XL"]
+    },
+    {
+      "id": 7,
+      "photo": "static/images/dress7.jpg",
+      "name": "Stylish Green Dress",
+      "price": 135.50,
+      "material": "Атлас",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": 8,
+      "photo": "static/images/dress8.jpg",
+      "name": "Elegant Purple Dress",
+      "price": 145.00,
+      "material": "Сатин",
+      "sizes": ["S", "M"]
+    },
+    {
+      "id": 9,
+      "photo": "static/images/dress9.jpg",
+      "name": "Bright Orange Dress",
+      "price": 115.00,
+      "material": "Хлопок",
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 10,
+      "photo": "static/images/dress10.jpg",
+      "name": "Sophisticated Pink Dress",
+      "price": 160.50,
+      "material": "Атлас",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": 11,
+      "photo": "static/images/dress11.jpg",
+      "name": "Graceful Grey Dress",
+      "price": 125.75,
+      "material": "Шелк",
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 12,
+      "photo": "static/images/dress12.jpg",
+      "name": "Timeless Navy Dress",
+      "price": 135.00,
+      "material": "Хлопок",
+      "sizes": ["M", "L"]
+    },
+    {
+      "id": 13,
+      "photo": "static/images/dress13.jpg",
+      "name": "Modern Mint Dress",
+      "price": 120.00,
+      "material": "Лён",
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 14,
+      "photo": "static/images/dress14.jpg",
+      "name": "Charming Coral Dress",
+      "price": 150.25,
+      "material": "Атлас",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": 15,
+      "photo": "static/images/dress15.jpg",
+      "name": "Vibrant Turquoise Dress",
+      "price": 140.00,
+      "material": "Сатин",
+      "sizes": ["S", "M"]
+    },
+    {
+      "id": 16,
+      "photo": "static/images/dress16.jpg",
+      "name": "Regal Gold Dress",
+      "price": 170.00,
+      "material": "Шелк",
+      "sizes": ["M", "L", "XL"]
+    },
+    {
+      "id": 17,
+      "photo": "static/images/dress17.jpg",
+      "name": "Delicate Silver Dress",
+      "price": 155.00,
+      "material": "Сатин",
+      "sizes": ["S", "M", "L"]
+    },
+    {
+      "id": 18,
+      "photo": "static/images/dress18.jpg",
+      "name": "Modern Maroon Dress",
+      "price": 130.50,
+      "material": "Хлопок",
+      "sizes": ["M", "L"]
+    },
+    {
+      "id": 19,
+      "photo": "static/images/dress19.jpg",
+      "name": "Elegant Teal Dress",
+      "price": 125.00,
+      "material": "Лён",
+      "sizes": ["S", "M", "L", "XL"]
+    },
+    {
+      "id": 20,
+      "photo": "static/images/dress20.jpg",
+      "name": "Vintage Beige Dress",
+      "price": 115.25,
+      "material": "Шелк",
+      "sizes": ["S", "M", "L"]
+    }
+  ]
+  
