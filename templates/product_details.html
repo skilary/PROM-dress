@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block content %}
+{{ product.name }}
+{{ product.name }}
+Цена: {{ product.price }}₽
+
+Материал: {{ product.material }}
+
+Доступные размеры: {{ product.sizes }}
+
+Добавить размер
+{% for size in product.sizes.split(',') %}
+{{ size }}
+{% endfor %}
+{% endblock %}
