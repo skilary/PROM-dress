@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Каталог платьев</h2>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+<div class="row mb-4">
+  {% for product in products %}
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <img src="{{ url_for('static', filename=product.photo.replace('static/', '')) }}" 
+             class="card-img-top product-img" 
+             alt="{{ product.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ product.name }}</h5>
+          <p class="card-text">Цена: {{ product.price }}₽</p>
+          <a href="{{ url_for('product_detail', product_id=product.id) }}" class="btn btn-dark">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

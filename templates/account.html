@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Личный кабинет</h2>
+<p>Номер телефона: {{ user.phone }}</p>
+<p>Баланс: {{ user.balance }}₽</p>
+
+<h3>Пополнить счет</h3>
+<form method="post">
+  <div class="form-group">
+    <label for="amount">Сумма пополнения</label>
+    <input type="number" step="0.01" class="form-control" name="amount" id="amount" placeholder="Введите сумму" required>
+  </div>
+  <button type="submit" class="btn btn-dark">Пополнить</button>
+</form>
+
+<h3>Ваши заказы</h3>
+{% if user.orders %}
+  <ul class="list-group">
+  {% for order in user.orders %}
+    <li class="list-group-item">
+      Заказ №{{ order.id }} - Сумма: {{ order.total }}₽
+      <br>
+      Товары:
+      <ul>
+      {% for product in order.products %}
+        <li>{{ product.name }} - {{ product.price }}₽</li>
+      {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+{% else %}
+  <p>Заказов нет.</p>
+{% endif %}
+{% endblock %}
