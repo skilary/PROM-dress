@@ -1,0 +1,10 @@
+.row {
+    margin-bottom: 30px !important;
+}
+
+.product-img {
+    width: 736px !important;
+    height: 736px !important;
+    object-fit: contain; /*сжатие изображения*/
+}
+
